@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
@@ -6,7 +7,6 @@ body {
 
 .profile-img {
   border-radius: 100%;
-  margin-top: 50px;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -29,7 +30,15 @@ h3 {
 }
 
 p {
-  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  color: #EAF6F6;
+  margin: 100px auto;
+  width: 3%;
 }
 
 .top-container {
@@ -50,19 +59,13 @@ p {
   position: absolute;
 }
 
-hr {
-  border-style: dotted;
-  border-width: 7px 0 0 0;
-  color: #EAF6F6;
-  margin: 50px auto;
-  width: 3%;
-}
+.middle-container {
+  margin: 100px 0;
 
-.middle-container {}
+}
 
 .skill-row {
   margin: 100px auto;
-  line-height: 2;
   text-align: left;
   width: 50%;
 }
@@ -125,7 +128,15 @@ hr {
   margin-left: 20px;
   text-decoration: none;
 }
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
 .copyright {
   color: #EAF6F6;
-  margin: 0;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.flat-icons {
+  display: none;
 }
